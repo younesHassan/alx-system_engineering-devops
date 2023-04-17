@@ -17,9 +17,8 @@
 # ssh_config(5) man page.
 
 Host *
-    User                   younesHassan
-    StrictHostKeyChecking  no
-    IdentityFile          ~/my_path/id_rsa.pub
+UserKnownHostsFile=/dev/null
+StrictHostKeyChecking=no
 #   ForwardAgent no
 #   ForwardX11 no
 #   ForwardX11Trusted yes
